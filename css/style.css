@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0  30px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+/* Header */
+header {
+    background-color: #F1F1F1;
+    width: 100%;
+    padding-top: 46px;
+}
+
+.logo {
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    padding: 0 12px 3px 0;
+    line-height: 1;
+}
+
+.logo::after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #FDA300;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.nav-list {
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    column-gap: 50px;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    display: none;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link.active {
+    color: #606060;
+}
+
+/* Title */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content-text {
+    max-width: 500px;
+
+    p {
+        font-weight: 400px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+.header-title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    margin-bottom: 20px;
+    margin-top: 124px;
+}
+
+
+/* Services */
+.services {
+    padding: 90px 0;
+}
+
+.services-content {
+    display: flex;
+    column-gap: 30px;
+}
+
+.services-item {
+    img {
+        margin-bottom: 30px;
+    }
+
+    h4 {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+
+/* Portfolio */
+.portfolio {
+    background-color: #F1F1F1;
+    padding: 90px 0;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 90px;
+}
+
+.portfolio-tab {
+    a {
+        color: #070707;
+        text-decoration: underline;
+    }
+}
+
+.portfolio-dsc {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Contacts */
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        width: 296px;
+    }
+
+    span {
+        font-size: 14px;
+        line-height: 21px;
+        color: #828282;
+    }
+}
+
+.btn {
+    display: inline-block;
+    background-color: #070707;
+    padding: 10px 22px;
+
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    transition: background-color 0.2s ease-in, 
+                top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #333030;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: black;
+}
+
+
+.socials {
+    display: flex;
+    column-gap: 62px;
+}
+
+
